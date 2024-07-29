@@ -51,7 +51,7 @@
 </style>
 
 
-<div class="w-screen gradient-bg h-screen">
+<div class="w-full gradient-bg h-full">
 
     <div class="gradients-container">
         <div class="g1"></div>
