@@ -51,20 +51,6 @@
 </style>
 
 
-<div class="w-full gradient-bg h-full">
-
-    <div class="gradients-container">
-        <div class="g1"></div>
-        <div class="g2"></div>
-        <div class="g3"></div>
-    </div>
-
-    <div class="fixed left-5 top-5 mt-0">
-        <Logo/>
-    </div>
-
-
-
     <div class="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2/6 h-4/6 bg-greys-200 rounded-3xl drop-shadow-md flex flex-col items-center justify-center ">
         <div class="relative justify-center">
             <AnimatedIcon/>
@@ -73,7 +59,7 @@
         <form novalidate class="group flex flex-col gap-1 align-middle justify-center">
             <div class="w-80 max-w-xs">
                 <input
-                        required
+                        
                         type="email"
                         placeholder="Email"
                         class="input input-bordered input-md w-full bg-greys-300 text-lg invalid:[&:not(:placeholder-shown):not(:focus)]:border-error-500 peer" />
@@ -83,7 +69,7 @@
             </div>
             <div class="w-80 max-w-xs mt-2">
                 <input
-                        required
+
                         type="password"
                         placeholder="Password"
                         class="input input-bordered input-md w-full bg-greys-300 text-lg peer" />
@@ -97,13 +83,12 @@
                     <span class="label-text ml-2">Remember me</span>
                 </label>
             </div>
-            <button type="submit"
-                    class=" flex self-center btn btn-primary btn-wide hover:bg-primary-400 mt-2 group-invalid:pointer-events-none group-invalid:opacity-30"
-                    >
-                Sign In</button>
-
+            <a type="submit"
+                href="/overview"
+                class=" flex self-center btn btn-primary btn-wide hover:bg-primary-400 mt-2 group-invalid:pointer-events-none group-invalid:opacity-30">
+                Sign In
+            </a>            
         </form>
-
 
         <p class="relative text-sm font-normal text-left mt-4">
             <span class="text-left text-black select-none">Need an account? </span>
@@ -111,6 +96,5 @@
         </p>
 
     </div>
-</div>
 
 

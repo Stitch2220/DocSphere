@@ -1,10 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./src/**/*.{svelte,html,js,ts}'],
+  content: ['./src/**/*.{svelte,html,js,ts}', "./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}"],
   theme: {
     extend: {
       colors:{
         greys: {
+          50: '#e3e3e3',
           100: '#e8e8e8',
           200: '#e1e1e1',
           300: '#d7d7d7',
@@ -93,6 +94,7 @@ export default {
   },
   plugins: [
     require('daisyui'),
+    require("flowbite/plugin"),
   ],
 }
 
