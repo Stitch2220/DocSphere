@@ -30,7 +30,9 @@
 		"flowbite": "^2.4.1",
 		"flowbite-svelte": "^0.46.15",
 		"ionicons": "^7.4.0",
+		"lucide-svelte": "^0.424.0",
 		"surrealdb.js": "^1.0.0-beta.9",
+		"svelte-ionicons": "^1.1.2",
 		"tailwind-merge": "^2.4.0"
 	}
 }

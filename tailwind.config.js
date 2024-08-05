@@ -1,8 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./src/**/*.{svelte,html,js,ts}', "./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}"],
+  content: ['./src/**/*.{svelte,html,js,ts}'],
   theme: {
     extend: {
+      fontFamily: {
+        inter: ['InterVariable', 'sans-serif'],
+        gantari: ['Gantari', 'sans-serif'],
+      },
       colors:{
         greys: {
           50: '#e3e3e3',
@@ -23,7 +27,7 @@ export default {
           600: '#beb1a5',
           700: '#a09790',
           800: '#888786',
-          900: '#6b6b6b',
+          900: '#333333',
         },
         secondary: {
           100: '#e3e7ed',
@@ -94,7 +98,6 @@ export default {
   },
   plugins: [
     require('daisyui'),
-    require("flowbite/plugin"),
   ],
 }
 
