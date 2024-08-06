@@ -10,7 +10,7 @@ import AnimatedIcon from "./animatedsvg.svelte";
 <div class="relative w-full h-screen flex items-center justify-center">
     <div class="absolute w-2/6 h-4/6 bg-greys-200 rounded-3xl drop-shadow-md flex flex-col items-center justify-center">
         <div class="mb-2">
-            <AnimatedIcon/>
+            <AnimatedIcon width="203px" height="203px"/>
         </div>
 
         <h1 class="text-4xl select-none mb-10 font-gantari font-bold">Sign In</h1>

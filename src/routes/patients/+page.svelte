@@ -3,7 +3,6 @@
     import { HelpBuoyOutline } from 'svelte-ionicons';
     import { PersonOutline } from 'svelte-ionicons';
     import { page } from '$app/stores';
-    import AnimatedIcon from "../animatedsvg.svelte";
 
     // Reactive declaration to get the current path
     $: currentPath = $page.url.pathname;
@@ -65,23 +64,12 @@
     </div>
 
     <div class="relative container mx-auto w-1/6 h-5/6 flex flex-col">
-        <div class="relative mx-auto w-5/6 h-2/6 rounded-3xl bg-greys-50 backdrop-filter backdrop-blur-3xl drop-shadow-lg bg-opacity-60 mb-2.5 flex flex-col justify-center ">
-            <div class="mt-5 justify-center inline-flex flex-col items-center font-extrabold text-xl font-inter">
-                <h1>
-                    AutoDoc
-                </h1>
-                <span>
-                    Suggestions
-                </span>
-            </div>
-
-            <AnimatedIcon width="150px" height="150px"/>
+        <div class="relative mx-auto w-5/6 h-3/6 rounded-3xl bg-greys-50 backdrop-filter backdrop-blur-3xl drop-shadow-lg bg-opacity-60 mb-2.5 flex justify-center items-center">
+            3
         </div>
 
-        <div class="relative mx-auto w-5/6 h-4/6 rounded-3xl bg-greys-50 backdrop-filter backdrop-blur-3xl drop-shadow-lg bg-opacity-60 flex flex-col">
-            <div class="mt-5 inline-flex flex-col font-extrabold text-xl font-inter items-center">
-                Appointments
-            </div>
+        <div class="relative mx-auto w-5/6 h-3/6 rounded-3xl bg-greys-50 backdrop-filter backdrop-blur-3xl drop-shadow-lg bg-opacity-60 flex justify-center items-center">
+            4
         </div>
     </div>
 </div>

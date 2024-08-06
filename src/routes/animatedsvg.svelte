@@ -1,8 +1,6 @@
 
 <style>
     .icon {
-        width: 200px;
-        height: 200px;
         margin: auto;
         display: block;
     }
@@ -14,6 +12,8 @@
     let body,
         leftEye,
         rightEye;
+    export let width = 203;
+    export let height = 203;
 
     onMount(setup);
 
@@ -34,7 +34,7 @@
 </script>
 
 <div class="icon">
-    <svg xmlns="http://www.w3.org/2000/svg" width="203" height="181" viewBox="0 0 203 181" fill="none" filter="url(#dropShadow)">
+    <svg xmlns="http://www.w3.org/2000/svg" width={width} height={height} viewBox="0 0 203 181" fill="none" filter="url(#dropShadow)">
         <defs>
             <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
                 <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="black" flood-opacity="0.5"/>
