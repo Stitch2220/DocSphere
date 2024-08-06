@@ -3,6 +3,8 @@
     import Logo from "./logo.svelte";
 </script>
 
+
+
 <div class="relative mx-auto w-full min-h-screen gradient-bg">
     <div class="gradients-container absolute inset-0">
         <div class="g1"></div>
