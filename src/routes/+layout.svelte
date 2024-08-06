@@ -10,7 +10,7 @@
         <div class="g3"></div>
     </div>
 
-    <a href="/" class="fixed left-5 top-5 mt-0 z-10">
+    <a href="/" class="fixed left-5 top-5 mt-0 z-20">
         <Logo />
     </a>
 
